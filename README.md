@@ -8,7 +8,7 @@ Run this command to clone the GLIP repo, create a conda environment, setup the e
 bash setup_glip.sh
 ```
 
-The file glip_script.slurm is the slurm script for running GLIP models. Check the file out, as well as the github repo, for commands to run the GLIP models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
+The file glip_script.slurm is the slurm script for running GLIP models. Check the file out, as well as the [github repo](https://github.com/microsoft/GLIP/), for commands to run the GLIP models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
 
 ```
 sbatch glip_script.slurm
@@ -28,7 +28,7 @@ $HOME/my-envs/detr_fb/lib/python3.9/site-packages/pycocotools/cocoeval.py
 
 And replace all instances of "np.float" with "float". Not the ideal solution, but it works.
 
-The file detr_script.slurm is the slurm script for running DETR models. Check the file out, as well as the github repo, for commands to run the DETR models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
+The file detr_script.slurm is the slurm script for running DETR models. Check the file out, as well as the [github repo](https://github.com/facebookresearch/detr), for commands to run the DETR models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
 
 ```
 sbatch detr_script.slurm
@@ -42,7 +42,7 @@ Run this command to create a detectron2 directory, create a conda environment, s
 bash setup_detectron2.sh
 ```
 
-The file detectron2_script.slurm is the slurm script for running detectron2 models. Check the file out, as well as the github repo, for commands to run the detectron2 models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
+The file detectron2_script.slurm is the slurm script for running detectron2 models. Check the file out, as well as the [github repo](https://github.com/facebookresearch/detectron2), for commands to run the detectron2 models. Example command(s) are provided at the end slurm file. If you wanna run commands for your own evaluation, make sure you place the commands at the end of the file.
 
 ```
 sbatch detectron2_script.slurm
