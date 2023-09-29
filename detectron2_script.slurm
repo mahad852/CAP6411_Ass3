@@ -54,6 +54,6 @@ cd detectron2/tools
 
 python train_net.py --resume \
   --config-file ../configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml \
-  --eval-only MODEL.WEIGHTS ../checkpoints/r50_fpn_3/model_final_280758.pkl \
+  --eval-only MODEL.WEIGHTS ../../checkpoints/r50_fpn/model_final_280758.pkl \
   DATALOADER.NUM_WORKERS 2
 
